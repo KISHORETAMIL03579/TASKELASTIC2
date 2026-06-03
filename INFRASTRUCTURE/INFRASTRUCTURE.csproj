@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+	<PackageReference Include="AutoMapper" Version="16.1.1" />
+    <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.17" />
+	<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APPLICATION\APPLICATION.csproj" />
+	  <ProjectReference Include="..\DOMAIN\DOMAIN.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
